@@ -1,7 +1,7 @@
 # SynArchive
 
 This repo will archive some of the old synthesis tools.
-The "build-from-source" is verified by me myself and will have a docker image provided. For those who are also requiring method of manually build/modify the source, just pull the archived image.
+The "build-from-source" is verified by me myself and will have a docker image provided. For those who are also requiring methods of manually build/modify the source, just pull the archived image.
 
 ## Why this
 Although ABC contains most of the SOTA method. Classic tools might still be useful as a reference for implementation of algorithms.
@@ -11,7 +11,7 @@ Although ABC contains most of the SOTA method. Classic tools might still be usef
 All the content in this README is **based on** every README in submodules I archive, it's important you read the original README and then this one.
 <br>The content is organized as follows:
 - The original docker image I use
-- A lists of packages I have installed
+- A list of packages I have installed
 - Some tricky points that need to be manually modified
 - The result image I archived which for simply pull and build
 
@@ -28,7 +28,7 @@ gcc-9-multilib Version: 9.4.0-1ubuntu1~20.04.2
 libreadline-dev Version: 8.0-4
 ```
 If you are interested in versions of other packages, check the docker image I created below.
-<br>First of all, **DO FOLLOWING** what mentioned in MVSIS [here](https://github.com/wjrforcyber/mvsis). If you are using the same image as I use(ubuntu 20.04), you will probably failed on `gcc-multilib`.
+<br>First of all, **DO FOLLOWING** what mentioned in MVSIS [here](https://github.com/wjrforcyber/mvsis). If you are using the same image as I use(ubuntu 20.04), you will probably fail on `gcc-multilib`.
 <br> Based on the `gcc` version and hint given, install related packages, for me,
 ```
 gcc --version
