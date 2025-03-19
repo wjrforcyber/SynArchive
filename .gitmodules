@@ -1,3 +1,6 @@
 [submodule "mvsis"]
 	path = mvsis
 	url = git@github.com:wjrforcyber/mvsis.git
+[submodule "espresso"]
+	path = espresso
+	url = git@github.com:wjrforcyber/espresso.git
