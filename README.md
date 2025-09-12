@@ -15,12 +15,28 @@ All the content in this README is **based on** every README in submodules I arch
 - Some tricky points that need to be manually modified
 - The result image I archived which for simply pull and build
 
+## OpenRoad
+[OpenRoad](https://github.com/The-OpenROAD-Project/OpenROAD) is also archived here for others to use, I didn't modify anything particular, the project is built and prepared for course MICS5520 L01(Physical Design Automation of Digital Systems) from [Prof. Yuzhe Ma](https://www.yuzhe-ma.com).
+
+### TRICKY POINTS
+When building OpenRoad itself or installing dependencies(there are building process inside), even if you don't set limit to the container memory/number of cores. There's a high possibility you'll encounter the crash such as `c++: fatal error: Killed signal terminated program cc1plus`. Make sure pass a specific thread number to the build script(eg. 4) will solve this.
+
+### Original Docker image information
+[ubuntu:latest](https://hub.docker.com/layers/library/ubuntu/latest/images/sha256-3f83fb03282ef4e453bdf0060e0d83833bb3cf6e6f36f54d9b8517d311d78e03)
+
+### Archived image
+I have committed the container and pushed image to the docker hub. Use 
+```bash
+docker pull jingrenwang/openroad:v1.0
+```
+to fetch the image. The OpenRoad is already ready to use, but if you would like to build by yourself in debug mode etc., the repository is located at `/home/ubuntu/workspace/OpenROAD`.
+
 ## Espresso [WIP]
 Check the [README in the according archived repo](https://github.com/wjrforcyber/espresso).
 
 ## MVSIS
 
-### Original Docker information:
+### Original Docker image information
 - [origianl docker image of ubuntu 20.04](https://hub.docker.com/layers/library/ubuntu/20.04/images/sha256-e5a6aeef391a8a9bdaee3de6b28f393837c479d8217324a2340b64e45a81e0ef)
 
 ### TRICKY POINTS
