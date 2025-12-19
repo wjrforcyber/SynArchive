@@ -4,3 +4,6 @@
 [submodule "espresso"]
 	path = espresso
 	url = git@github.com:wjrforcyber/espresso.git
+[submodule "CUDD"]
+	path = CUDD
+	url = https://github.com/wjrforcyber/CUDD

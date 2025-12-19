@@ -15,6 +15,11 @@ All the content in this README is **based on** every README in submodules I arch
 - Some tricky points that need to be manually modified
 - The result image I archived which for simply pull and build
 
+## CUDD
+> [!NOTE]
+> No image is given since it could be easily build without further modification.
+[CUDD](https://github.com/wjrforcyber/CUDD) is a package written in C for the manipulation of decision diagrams.
+
 ## OpenRoad
 [OpenRoad](https://github.com/The-OpenROAD-Project/OpenROAD) is also archived here for others to use, I didn't modify anything particular, the project is built and prepared for course MICS5520 L01(Physical Design Automation of Digital Systems) from [Prof. Yuzhe Ma](https://www.yuzhe-ma.com).
 
